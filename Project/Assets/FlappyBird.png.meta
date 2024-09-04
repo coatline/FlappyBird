@@ -1,36 +1,84 @@
 fileFormatVersion: 2
 guid: 402ea16722cccfa4a9b1102987d2982e
-timeCreated: 1516064652
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: PipeDown
-    21300002: PipeUp
-    21300004: FlappyBird_2
-    21300006: Ground
-    21300008: FlappyBird_4
-    21300010: Background
-    21300012: FlappyBird_6
-    21300014: FlappyBird_Nine
-    21300016: FlappyBird_Eight
-    21300018: FlappyBird_0
-    21300020: FlappyBird_1
-    21300022: FlappyBird_3
-    21300024: FlappyBird_Seven
-    21300026: FlappyBird_Six
-    21300028: FlappyBird_5
-    21300030: FlappyBird_Five
-    21300032: FlappyBird_Four
-    21300034: FlappyBird_7
-    21300036: FlappyBird_Three
-    21300038: FlappyBird_8
-    21300040: FlappyBird_Two
-    21300042: FlappyBird_9
-    21300044: FlappyBird_One
-    21300046: Click_To_Fly
-    21300048: FlappyBird_Zero
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: PipeDown
+  - first:
+      213: 21300002
+    second: PipeUp
+  - first:
+      213: 21300004
+    second: FlappyBird_2
+  - first:
+      213: 21300006
+    second: Ground
+  - first:
+      213: 21300008
+    second: FlappyBird_4
+  - first:
+      213: 21300010
+    second: Background
+  - first:
+      213: 21300012
+    second: FlappyBird_6
+  - first:
+      213: 21300014
+    second: FlappyBird_Nine
+  - first:
+      213: 21300016
+    second: FlappyBird_Eight
+  - first:
+      213: 21300018
+    second: FlappyBird_0
+  - first:
+      213: 21300020
+    second: FlappyBird_1
+  - first:
+      213: 21300022
+    second: FlappyBird_3
+  - first:
+      213: 21300024
+    second: FlappyBird_Seven
+  - first:
+      213: 21300026
+    second: FlappyBird_Six
+  - first:
+      213: 21300028
+    second: FlappyBird_5
+  - first:
+      213: 21300030
+    second: FlappyBird_Five
+  - first:
+      213: 21300032
+    second: FlappyBird_Four
+  - first:
+      213: 21300034
+    second: FlappyBird_7
+  - first:
+      213: 21300036
+    second: FlappyBird_Three
+  - first:
+      213: 21300038
+    second: FlappyBird_8
+  - first:
+      213: 21300040
+    second: FlappyBird_Two
+  - first:
+      213: 21300042
+    second: FlappyBird_9
+  - first:
+      213: 21300044
+    second: FlappyBird_One
+  - first:
+      213: 21300046
+    second: Click_To_Fly
+  - first:
+      213: 21300048
+    second: FlappyBird_Zero
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -47,7 +95,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -57,11 +110,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -70,18 +123,27 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -90,8 +152,11 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -100,8 +165,11 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,8 +178,11 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: WebGL
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -120,7 +191,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -138,6 +211,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PipeUp
       rect:
@@ -152,6 +232,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_2
       rect:
@@ -166,6 +253,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Ground
       rect:
@@ -180,6 +274,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_4
       rect:
@@ -194,6 +295,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Background
       rect:
@@ -208,6 +316,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_6
       rect:
@@ -222,6 +337,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_Nine
       rect:
@@ -236,6 +358,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_Eight
       rect:
@@ -250,6 +379,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_0
       rect:
@@ -264,6 +400,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_1
       rect:
@@ -278,6 +421,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_3
       rect:
@@ -292,6 +442,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_Seven
       rect:
@@ -306,6 +463,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_Six
       rect:
@@ -320,6 +484,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_5
       rect:
@@ -334,6 +505,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_Five
       rect:
@@ -348,6 +526,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_Four
       rect:
@@ -362,6 +547,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_7
       rect:
@@ -376,6 +568,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_Three
       rect:
@@ -390,6 +589,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_8
       rect:
@@ -404,6 +610,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_Two
       rect:
@@ -418,6 +631,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_9
       rect:
@@ -432,6 +652,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_One
       rect:
@@ -446,6 +673,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FlappyBird_Zero
       rect:
@@ -460,6 +694,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Click_To_Fly
       rect:
@@ -474,9 +715,51 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag: 
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Background: 21300010
+      Click_To_Fly: 21300046
+      FlappyBird_0: 21300018
+      FlappyBird_1: 21300020
+      FlappyBird_2: 21300004
+      FlappyBird_3: 21300022
+      FlappyBird_4: 21300008
+      FlappyBird_5: 21300028
+      FlappyBird_6: 21300012
+      FlappyBird_7: 21300034
+      FlappyBird_8: 21300038
+      FlappyBird_9: 21300042
+      FlappyBird_Eight: 21300016
+      FlappyBird_Five: 21300030
+      FlappyBird_Four: 21300032
+      FlappyBird_Nine: 21300014
+      FlappyBird_One: 21300044
+      FlappyBird_Seven: 21300024
+      FlappyBird_Six: 21300026
+      FlappyBird_Three: 21300036
+      FlappyBird_Two: 21300040
+      FlappyBird_Zero: 21300048
+      Ground: 21300006
+      PipeDown: 21300000
+      PipeUp: 21300002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
